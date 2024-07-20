@@ -11,7 +11,6 @@ function error() {
     message: 'no connection to the server',
   });
 }
-
 function warning() {
   iziToast.warning({
     theme: 'dark',
@@ -22,7 +21,6 @@ function warning() {
     message: 'Please enter a value in the search field!',
   });
 }
-
 function info() {
   iziToast.info({
     messageSize: '16',
@@ -31,7 +29,6 @@ function info() {
     message: 'Sorry, there are no images matching your search query.',
   });
 }
-
 function endOfSearch() {
   iziToast.info({
     backgroundColor: '#8FBC8F',
@@ -43,7 +40,6 @@ function endOfSearch() {
     closeOnClick: true,
   });
 }
-
 function success(totalPhotos, loadedPhotos) {
   iziToast.success({
     backgroundColor: '#F0FFFF',

@@ -85,7 +85,6 @@ body {
   background-color: #fff;
   margin: 0 auto;
   background-color: #fff;
-  margin-bottom: 32px;
 }
 
 .gallery-item {
@@ -188,7 +187,7 @@ body {
 }
 .load-btn {
   display: block;
-  /* margin-top: 32px; */
+  margin-top: 32px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 44px;

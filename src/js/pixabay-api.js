@@ -19,7 +19,6 @@ export default async function getImages(str, page, perPage) {
       per_page: perPage,
     },
   };
-
   try {
     const response = await axios.get(BASE_URL, searchParams);
     return response.data;
